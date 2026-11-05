@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--login-->
+    <div class="left-section">
+          <div class="logo">🎓 Alumni Connect</div>
+
+        <h1>Welcome Back to Your Alumni Community!</h1>
+
+        <p>
+            Connect with alumni, discover career opportunities,
+            build professional relationships and grow together.
+        </p>
+
+        <div class="left-icon">🤝🎓</div>
+
+    </div>
+      <!-- Right Section -->
+
+    <div class="right-section">
+
+        <h2>Login</h2>
+
+        <p class="subtitle">
+            Please enter your details to access your account.
+        </p>
+        <form>
+            <select name="Role">
+                <option value="">Select your Role</option>
+                <option value="Student">Student</option>
+                <option value="Alumni">Alumni</option>
+                 <option value="Admin">Admin</option>
+            </select>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                 <span onclick="togglePassword()">👁️</span>
+            </div>
+            <!-- Login Button -->
+
+            <button type="submit" class="login-btn">
+                Login
+            </button>
+
+            <p class="message" id="message"></p>
+        </form>
+       
+         <div class="signup">
+
+            Don't have an account?
+
+            <a href="register.html">Create Account</a>
+
+        </div>
+
+    </div>
+<script>
+
+// Show / Hide Password
+
+function togglePassword() {
+
+    let password = document.getElementById("password");
+
+    if(password.type === "password") {
+
+        password.type = "text";
+
+    } else {
+
+        password.type = "password";
+
+    }
+
+}
+</script>
+
+
+</body>
+</html>

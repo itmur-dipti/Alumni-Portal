@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <aside class="sidebar" id ="sidebar">
+
+        <div class="logo">Alumni Connect</div>
+
+        <h4>Menu</h4>
+        <a href="#"class="active">Deshboard</a>
+        <a href="#">Alumni Directory</a>
+        <a href="#">JOb & Internship</a>
+        <a href="#">Mentorship</a>
+        <a href="#">Startup & Project Hub</a>
+        <a href="#">Community Help Hub</a>
+        <a href="#">Events & Reunions</a>
+        <a href="#">Help & Fundraising</a>
+        <a href="#">Admin Review</a>
+
+        <h4>Account</h4>
+
+        <a href="#">MY Profile</a>
+        <a href="#">Notifications</a>
+        <a href="#">Setting </a>
+        <a href="#">Logout</a>
+    
+    </aside>    
+
+    <!-- main -->
+     <main class="main">
+
+        <!-- Navbar -->
+         <nav class="navbar">
+            <span class="menu-btn" onclick="toggleSidebar()">☰</span>
+            <div class="Search">
+                <input type="text" placeholder="Search alumni jobs events...">
+
+            </div>
+            <div class="Profile">
+                <span>🔔</span>
+                <div class="Avatar">D</div>
+            <div>
+            <strong>Dipti Sahu</strong>
+            <p style="font-size:12px; color:gray">Student</p>
+            </div>
+           <button id="themeBtn" onclick="toggleTheme()">
+           🌙 Dark Mode
+            </button>
+            </div>
+         </nav>
+
+         <!--Welcome -->
+         <section class="Welcome">
+             <h2>Welcome, Dipti!</h2>
+             <p>Connect with your alumni community and explore new opportunities.</p>
+         </section>
+         
+<!-- Special Features Cards -->
+
+<section class="stats">
+
+    <div class="card">
+        <div class="icon">🤝</div>
+        <h2>08</h2>
+        <p>Mentorship Requests</p>
+        <span class="tag">3 Accepted</span>
+    </div>
+
+    <div class="card">
+        <div class="icon">T</div>
+        <h2>12</h2>
+        <p>Referral Requests</p>
+        <span class="tag">5 Pending</span>
+    </div>
+
+    <div class="card">
+        <div class="icon">A</div>
+        <h2>06</h2>
+        <p>Startup & Projects</p>
+        <span class="tag">2 New</span>
+    </div>
+
+    <div class="card">
+        <div class="icon">dd</div>
+        <h2>04</h2>
+        <p>Community Help Requests</p>
+        <span class="tag">Verified</span>
+    </div>
+
+</section>
+
+<!-- Explore Network Section -->
+
+<section class="explore-section">
+
+    <h2 class="section-title">Explore Your Network</h2>
+
+    <p>Discover opportunities and connect with your alumni community.</p>
+
+    <div class="quick-actions">
+
+        <div class="action" onclick="alert('Alumni Directory')">
+            <span>A</span>
+            <h3>Alumni Directory</h3>
+            <p>Connect with professional alumni.</p>
+            <a href="alumni.html">Explore Alumni →</a>
+        </div>
+
+        <div class="action" onclick="alert('Jobs & Internships')">
+            <span>B</span>
+            <h3>Jobs & Internships</h3>
+            <p>Find new career opportunities.</p>
+            <a href="jobs.html">Find Jobs →</a>
+        </div>
+
+        <div class="action" onclick="alert('Startup & Project Hub')">
+            <span>V</span>
+            <h3>Startup & Project Hub</h3>
+            <p>Showcase ideas and projects.</p>
+            <a href="startup.html">Explore Projects →</a>
+        </div>
+
+        <div class="action" onclick="alert('Events & Reunions')">
+            <span>D</span>
+            <h3>Events & Reunions</h3>
+            <p>Join upcoming alumni events.</p>
+            <a href="events.html">View Events →</a>
+        </div>
+
+    </div>
+
+</section>
+
+
+
+     </main>
+
+
+
+</body>
+</html>
